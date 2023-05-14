@@ -335,7 +335,7 @@ def generate_source_class(path):
         return 1
     if generate_source_file(source_path) > 0:
         # remove header if source file generation failed
-        os.remove(os.path.join(source_root, header_path))
+        os.remove(os.path.join(find_xenia_source_files, header_path))
         return 1
 
     return 0

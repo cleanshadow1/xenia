@@ -7,7 +7,7 @@
  ******************************************************************************
  */
 
-#include "xenia/app/emulator_window.h"
+#include "xenia/app/emulator_window"
 
 #include <filesystem>
 #include <functional>
@@ -1023,3 +1023,4 @@ void EmulatorWindow::SetInitializingShaderStorage(bool initializing) {
 
 }  // namespace app
 }  // namespace xe
+D:\xenia/src/foo.ps1

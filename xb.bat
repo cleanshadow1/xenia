@@ -1,4 +1,4 @@
-@ECHO OFF
+@ECHO on
 REM Copyright 2022 Ben Vanik. All Rights Reserved.
 
 SET "DIR=%~dp0"
